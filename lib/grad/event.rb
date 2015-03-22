@@ -1,4 +1,3 @@
-require 'ffi'
 require 'rbconfig'
 
 class Grad::Event < Struct.new(:type, :key)

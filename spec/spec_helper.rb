@@ -1,6 +1,7 @@
 # See http://rubydoc.info/gems/rspec-core/RSpec/Core/Configuration
 require 'rubygems'
 require 'grad'
+require 'awesome_print'
 
 RSpec.configure do |config|
   config.expect_with :rspec do |expectations|
@@ -14,7 +15,6 @@ RSpec.configure do |config|
   config.filter_run :focus
   config.run_all_when_everything_filtered = true
   config.disable_monkey_patching!
-  config.warnings = true
 
   if config.files_to_run.one?
     config.default_formatter = 'doc'

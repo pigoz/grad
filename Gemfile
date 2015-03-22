@@ -1,6 +1,7 @@
 source 'https://rubygems.org'
 
 gem 'ffi'
-gem 'treetop'
+gem 'parslet'
+gem 'activesupport'
 
 gemspec
